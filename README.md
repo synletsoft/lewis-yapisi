@@ -1,2 +1,0 @@
-# lewis-yapisi
- 
