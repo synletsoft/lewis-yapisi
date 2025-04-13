@@ -1336,6 +1336,16 @@ self.C3_ExpressionFuncs = [
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
+			return () => n0.ExpObject(and(n1.ExpObject(0), ".lewis.0"));
+		},
+		p => {
+			const n0 = p._GetNode(0);
+			const n1 = p._GetNode(1);
+			return () => n0.ExpObject(and(n1.ExpObject(0), ".lewis.1"));
+		},
+		p => {
+			const n0 = p._GetNode(0);
+			const n1 = p._GetNode(1);
 			return () => n0.ExpObject(and(n1.ExpObject(0), ".lewisTipi"));
 		},
 		p => {
@@ -1363,33 +1373,6 @@ self.C3_ExpressionFuncs = [
 			const n1 = p._GetNode(1);
 			return () => ((n0.ExpObject() + n1.ExpObject()) + 30);
 		},
-		p => {
-			const n0 = p._GetNode(0);
-			const n1 = p._GetNode(1);
-			return () => n0.ExpObject(and(n1.ExpObject(0), ".lewis.0"));
-		},
-		() => "lewisLoop",
-		p => {
-			const n0 = p._GetNode(0);
-			const n1 = p._GetNode(1);
-			return () => (n0.ExpObject(and(n1.ExpObject(0), ".lewis")) - 1);
-		},
-		p => {
-			const n0 = p._GetNode(0);
-			const n1 = p._GetNode(1);
-			const f2 = p._GetNode(2).GetBoundMethod();
-			return () => n0.ExpObject(and(and(n1.ExpObject(0), ".lewis."), f2()));
-		},
-		p => {
-			const n0 = p._GetNode(0);
-			const n1 = p._GetNode(1);
-			return () => ((n0.ExpObject() + n1.ExpObject()) + 10);
-		},
-		p => {
-			const n0 = p._GetNode(0);
-			const v1 = p._GetNode(1).GetVar();
-			return () => ((n0.ExpObject() + v1.GetValue()) + 10);
-		},
 		() => "lewisBagLoop",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -1411,6 +1394,15 @@ self.C3_ExpressionFuncs = [
 		() => 0.15,
 		() => 1.5,
 		() => 2,
+		() => 550,
+		() => 540,
+		p => {
+			const n0 = p._GetNode(0);
+			return () => and("molekul", n0.ExpObject(0));
+		},
+		() => 1365,
+		() => "molekul",
+		() => 0.8,
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
