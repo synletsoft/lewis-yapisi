@@ -87,7 +87,6 @@ self.C3_GetObjectRefTable = function () {
 	];
 };
 self.C3_JsPropNameTable = [
-	{background: 0},
 	{fullScreenBtn: 0},
 	{shareBtn: 0},
 	{audioBtn: 0},
@@ -108,7 +107,6 @@ self.C3_JsPropNameTable = [
 	{bilesik: 0},
 	{isFirst: 0},
 	{elementText1: 0},
-	{elementLevis1: 0},
 	{isAna: 0},
 	{isYan: 0},
 	{Flash: 0},
@@ -136,7 +134,6 @@ self.C3_JsPropNameTable = [
 	{lewisBg: 0},
 	{dizilimBg: 0},
 	{elementText2: 0},
-	{elementLevis2: 0},
 	{parent: 0},
 	{molekul0: 0},
 	{molekul1: 0},
@@ -183,7 +180,6 @@ self.C3_JsPropNameTable = [
 ];
 
 self.InstanceType = {
-	background: class extends self.ISpriteInstance {},
 	fullScreenBtn: class extends self.ISpriteInstance {},
 	shareBtn: class extends self.ISpriteInstance {},
 	audioBtn: class extends self.ISpriteInstance {},
@@ -197,7 +193,6 @@ self.InstanceType = {
 	levisKare: class extends self.ISpriteInstance {},
 	bilesik: class extends self.ISpriteInstance {},
 	elementText1: class extends self.ISpriteInstance {},
-	elementLevis1: class extends self.ISpriteInstance {},
 	elementBtn: class extends self.ISpriteInstance {},
 	levisJSON: class extends self.IJSONInstance {},
 	AJAX: class extends self.IInstance {},
@@ -214,7 +209,6 @@ self.InstanceType = {
 	lewisBg: class extends self.ISpriteInstance {},
 	dizilimBg: class extends self.ISpriteInstance {},
 	elementText2: class extends self.ISpriteInstance {},
-	elementLevis2: class extends self.ISpriteInstance {},
 	parent: class extends self.ISpriteInstance {},
 	molekul0: class extends self.ISpriteInstance {},
 	molekul1: class extends self.ISpriteInstance {},
