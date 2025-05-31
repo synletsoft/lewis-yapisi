@@ -157,6 +157,8 @@ self.C3_JsPropNameTable = [
 	{molekul19: 0},
 	{molekul20: 0},
 	{molekul21: 0},
+	{elementLevis1: 0},
+	{elementLevis2: 0},
 	{elementArea: 0},
 	{molekuller: 0},
 	{CheckLevisKareStatu: 0},
@@ -232,6 +234,8 @@ self.InstanceType = {
 	molekul19: class extends self.ISpriteInstance {},
 	molekul20: class extends self.ISpriteInstance {},
 	molekul21: class extends self.ISpriteInstance {},
+	elementLevis1: class extends self.ISpriteInstance {},
+	elementLevis2: class extends self.ISpriteInstance {},
 	elementArea: class extends self.ISpriteInstance {},
 	molekuller: class extends self.ISpriteInstance {}
 }
